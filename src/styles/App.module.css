@@ -1,4 +1,34 @@
-.App {
+.app__root {
+  text-align: center;
+  color: dimgray;
+  font-family: serif;  
+}
+.app__icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  color: dimgray;
+}
+.app__logout {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: dimgray;
+  margin-left: 10px;
+}
+button:disabled {
+  color: #ccc;
+  cursor: none;
+}
+h1 {
+  display: inline-block;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
